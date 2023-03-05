@@ -6,19 +6,28 @@ export default class KanbanStore {
         this._data = {
             Backlog: {
                 name: "Backlog",
-                items: []
+                items: [
+                    {name:''},
+                    {name:''}
+                ]
             },
             toDo: {
                 name: "To do",
-                items: []
+                items: [
+                    {name:''}
+                ]
             },
             inProgress: {
                 name: "In progress",
-                items: []
+                items: [
+                    {name:''}
+                ]
             },
             done:{
                 name:'Done',
-                items:[]
+                items:[
+                    {name:''}
+                ]
             }
         };
         this._lastItemId = 0;
